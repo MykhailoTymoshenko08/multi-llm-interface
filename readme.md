@@ -8,7 +8,7 @@
 - **Security:** Використання `.env` для безпечного зберігання API-ключів.
 
 ## Технології
-- Python 3.x
+- Python 3.9.13
 - Requests (для HTTP-запитів)
 - Python-dotenv (для конфігурації)
 - OpenRouter API
