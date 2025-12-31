@@ -29,8 +29,6 @@
 4. Lunch the script:
     ```bash
     py app1.py
-
     or
-
     python app1.py
     ```
