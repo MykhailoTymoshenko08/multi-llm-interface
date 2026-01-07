@@ -1,34 +1,36 @@
 # Multi LLM RequestsType
 
-Простий Python-інструмент для одночасного отримання відповідей від декількох LLM через OpenRouter API.
+A simple Python tool for simultaneously receiving responses from multiple LLMs via the OpenRouter API.
 
-## Основні можливості
-- **Multi-model requests:** Надсилання одного запиту до списку моделей за один цикл.
-- **Error Handling:** Обробка помилок API, таймаутів та мережевих проблем.
-- **Security:** Використання `.env` для безпечного зберігання API-ключів.
+## Key Features
+- **Multi-model requests:** Sending one request to a list of models in a single cycle.
+- **Error Handling:** Handling API errors, timeouts, and network issues.
+- **Security:** Using `.env` to securely store API keys.
 
 ## Технології
 - Python 3.9.13
-- Requests (для HTTP-запитів)
-- Python-dotenv (для конфігурації)
+- Requests (for HTTP-requests)
+- Python-dotenv (for configuration)
 - OpenRouter API
 
-## Як запустити
-1. Клонуйте репозиторій:
+## How to launch
+1. Clone repository:
    ```bash
    git clone [https://github.com/MykhailoTymoshenko08/multi-llm-interface.git](https://github.com/MykhailoTymoshenko08/multi-llm-interface.git) 
    ```
-2. Встановити залежність:
+2. Set dependency:
     ```bash
     pip install requests python-dotenv
     ```
-3. Створіть файл .env у кореневій папці та додайте свій ключ:
+3. Create a .env file in the root folder and add your key:
     ```bash
     API_KEY=you_API_key
     ```
-4. Lunch the script:
+4. Launch the script:
     ```bash
     py app1.py
+    ```
     or
+    ```
     python app1.py
     ```
